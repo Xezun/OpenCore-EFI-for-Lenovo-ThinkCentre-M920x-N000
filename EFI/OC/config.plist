@@ -284,6 +284,10 @@
 				<data>AQAAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel UHD Graphics 630</string>
+				<key>AAPL,ig-platform-id</key>
+				<data>BwCbPg==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
