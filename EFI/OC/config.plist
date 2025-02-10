@@ -253,7 +253,7 @@
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,0/0,0</string>
 				<key>brcmfx-country</key>
-				<string>CN</string>
+				<string>#a</string>
 				<key>device_type</key>
 				<string>Network controller</string>
 				<key>model</key>
@@ -268,12 +268,14 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>BwCbPg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
+				<key>device-id</key>
+				<data>mD4AAA==</data>
 				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
+				<string>Display controller</string>
 				<key>framebuffer-con1-busid</key>
 				<data>AgAAAA==</data>
 				<key>framebuffer-con1-enable</key>
@@ -282,12 +284,6 @@
 				<data>AAgAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>model</key>
-				<string>Intel UHD Graphics 630</string>
-				<key>AAPL,ig-platform-id</key>
-				<data>BwCbPg==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1366,21 +1362,38 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02953306GULNV9FB</string>
+			<string>C029075014NKGQGAD</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>4105</integer>
 			<key>ROM</key>
-			<data>ZCAMwOmr</data>
+			<data>+HWkSkRp</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMac19,1</string>
+			<string>iMac19,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02ZX0EWJV3Q</string>
+			<string>C02Y8RY8JWDW</string>
 			<key>SystemUUID</key>
-			<string>E3BA9B6B-775D-4DEF-B08E-B25AF3B52A3D</string>
+			<string>D18D92B0-08B5-46BE-A522-93C16FC4EA5B</string>
+		</dict>
+		<key>PlatformNVRAM</key>
+		<dict>
+			<key>BID</key>
+			<string>Mac-63001698E7A34814</string>
+			<key>FirmwareFeatures</key>
+			<data>dvWP/QgAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>f//f/wgAAAA=</data>
+			<key>MLB</key>
+			<string>C029075014NKGQGAD</string>
+			<key>ROM</key>
+			<data>+HWkSkRp</data>
+			<key>SystemSerialNumber</key>
+			<string>C02Y8RY8JWDW</string>
+			<key>SystemUUID</key>
+			<string>D18D92B0-08B5-46BE-A522-93C16FC4EA5B</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
