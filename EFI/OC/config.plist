@@ -245,8 +245,17 @@
 				<string>Internal@0,28,0/0,0</string>
 				<key>brcmfx-country</key>
 				<string>#a</string>
+				<key>device_type</key>
+				<string>Network controller</string>
 				<key>model</key>
 				<string>Broadcom 802.11ac Wireless Network Adapter</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>layout-id</key>
+				<data>EQAAAA==</data>
+				<key>model</key>
+				<string>Realtek High Definition Audio</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -268,13 +277,6 @@
 				<data>AQAAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
-			<dict>
-				<key>layout-id</key>
-				<data>EQAAAA==</data>
-				<key>model</key>
-				<string>Realtek High Definition Audio</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
