@@ -263,6 +263,8 @@
 				<data>BwCbPg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
+				<key>device-id</key>
+				<data>mz4AAA==</data>
 				<key>device_type</key>
 				<string>Display controller</string>
 				<key>enable-hdmi20</key>
@@ -1277,7 +1279,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Mg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 igfxonln=1 -amfipassbeta</string>
+				<string>keepsyms=1 -amfipassbeta</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
