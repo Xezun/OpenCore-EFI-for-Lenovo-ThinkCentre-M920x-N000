@@ -196,9 +196,9 @@
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>ClearTaskSwitchBit</key>
-			<true/>
-			<key>DevirtualiseMmio</key>
 			<false/>
+			<key>DevirtualiseMmio</key>
+			<true/>
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
@@ -206,7 +206,7 @@
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
-			<true/>
+			<false/>
 			<key>EnableWriteUnprotector</key>
 			<false/>
 			<key>FixupAppleEfiImages</key>
@@ -220,7 +220,7 @@
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProtectUefiServices</key>
-			<false/>
+			<true/>
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>ProvideMaxSlide</key>
